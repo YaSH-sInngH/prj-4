@@ -11,7 +11,7 @@ function Github() {
             })
     }, [])
   return (
-    <div className='text-center m-4 p-2 bg-blue-600 text-white text-2xl'>Github followers: {data.followers}</div>
+    <div className='text-center m-4 p-2 bg-orange-600 text-white text-2xl'>Github followers: {data.followers}</div>
   )
 }
 
